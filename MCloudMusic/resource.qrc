@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/mianwindow">
+        <file>images/mainback.png</file>
+        <file>images/title_logo.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PersonForm</class>
+ <widget class="QWidget" name="PersonForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>276</width>
+    <height>376</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_person_head_image">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>40</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_user_name">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>43</y>
+     <width>60</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>60</width>
+     <height>15</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>梦想少年</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_user_member_icon">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>43</y>
+     <width>15</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>15</width>
+     <height>15</height>
+    </size>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>43</y>
+     <width>75</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_sign">
+   <property name="geometry">
+    <rect>
+     <x>197</x>
+     <y>37</y>
+     <width>64</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_dynamic">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>80</y>
+     <width>90</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>动态</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_attention">
+   <property name="geometry">
+    <rect>
+     <x>93</x>
+     <y>80</y>
+     <width>90</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>关注</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_fans">
+   <property name="geometry">
+    <rect>
+     <x>186</x>
+     <y>80</y>
+     <width>90</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>粉丝</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelline_1">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>142</y>
+     <width>276</width>
+     <height>1</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_dynamic">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>80</y>
+     <width>90</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>123</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_attention">
+   <property name="geometry">
+    <rect>
+     <x>93</x>
+     <y>80</y>
+     <width>90</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>2000</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_fans">
+   <property name="geometry">
+    <rect>
+     <x>186</x>
+     <y>80</y>
+     <width>90</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>10000</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_mymember">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>142</y>
+     <width>276</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelline_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>251</y>
+     <width>276</width>
+     <height>1</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelline_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>324</y>
+     <width>276</width>
+     <height>1</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_my_menber">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>152</y>
+     <width>18</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_my_member">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>152</y>
+     <width>100</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>我的会员</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_my_member_time">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>152</y>
+     <width>100</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>2019.05.05到期</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_L_1">
+   <property name="geometry">
+    <rect>
+     <x>255</x>
+     <y>152</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_dengji">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>178</y>
+     <width>276</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_shop">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>214</y>
+     <width>276</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_person_infor">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>253</y>
+     <width>276</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_bend">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>289</y>
+     <width>276</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_off">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>326</y>
+     <width>276</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_my_dengji">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>188</y>
+     <width>18</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_my_dengji_1">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>188</y>
+     <width>100</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>等级</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_L_2">
+   <property name="geometry">
+    <rect>
+     <x>255</x>
+     <y>188</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_my_dengji_2">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>188</y>
+     <width>100</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>LV.9</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_my_shop">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>224</y>
+     <width>18</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_my_shop2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>224</y>
+     <width>100</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>商城</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_L_3">
+   <property name="geometry">
+    <rect>
+     <x>255</x>
+     <y>224</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_L_4">
+   <property name="geometry">
+    <rect>
+     <x>255</x>
+     <y>263</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_my_setup2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>263</y>
+     <width>100</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>个人信息设置</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_my_setup">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>263</y>
+     <width>18</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_my_bend">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>299</y>
+     <width>18</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_my_bend2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>299</y>
+     <width>100</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>绑定社交账号</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_L_5">
+   <property name="geometry">
+    <rect>
+     <x>255</x>
+     <y>299</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_my_bend_3">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>299</y>
+     <width>18</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_my_bend_4">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>299</y>
+     <width>18</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_my_off">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>339</y>
+     <width>18</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_my_off2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>339</y>
+     <width>100</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>退出登录</string>
+   </property>
+  </widget>
+  <zorder>pushButton_person_head_image</zorder>
+  <zorder>label_user_name</zorder>
+  <zorder>label_user_member_icon</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_sign</zorder>
+  <zorder>labelline_1</zorder>
+  <zorder>label_dynamic</zorder>
+  <zorder>label_attention</zorder>
+  <zorder>label_fans</zorder>
+  <zorder>pushButton_fans</zorder>
+  <zorder>pushButton_dynamic</zorder>
+  <zorder>pushButton_attention</zorder>
+  <zorder>labelline_2</zorder>
+  <zorder>labelline_3</zorder>
+  <zorder>label_my_menber</zorder>
+  <zorder>label_my_member</zorder>
+  <zorder>label_my_member_time</zorder>
+  <zorder>label_L_1</zorder>
+  <zorder>pushButton_mymember</zorder>
+  <zorder>label_my_dengji</zorder>
+  <zorder>label_my_dengji_1</zorder>
+  <zorder>label_L_2</zorder>
+  <zorder>label_my_dengji_2</zorder>
+  <zorder>pushButton_dengji</zorder>
+  <zorder>label_my_shop</zorder>
+  <zorder>label_my_shop2</zorder>
+  <zorder>label_L_3</zorder>
+  <zorder>pushButton_shop</zorder>
+  <zorder>label_L_4</zorder>
+  <zorder>label_my_setup2</zorder>
+  <zorder>label_my_setup</zorder>
+  <zorder>pushButton_person_infor</zorder>
+  <zorder>label_my_bend</zorder>
+  <zorder>label_my_bend2</zorder>
+  <zorder>label_L_5</zorder>
+  <zorder>label_my_bend_3</zorder>
+  <zorder>label_my_bend_4</zorder>
+  <zorder>pushButton_bend</zorder>
+  <zorder>label_my_off</zorder>
+  <zorder>label_my_off2</zorder>
+  <zorder>pushButton_off</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
